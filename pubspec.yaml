@@ -39,6 +39,7 @@ dependencies:
   device_info:
   logger:
   package_info:
+  enum_to_string:
 
   # UI
   cupertino_icons: ^1.0.2
