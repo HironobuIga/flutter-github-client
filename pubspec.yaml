@@ -92,3 +92,4 @@ flutter:
 
 dependency_overrides:
   intl: any
+  analyzer: ^0.41.1
