@@ -7,16 +7,16 @@ build-runner:
 
 .PHONY: run-debug-dev
 run-debug-dev:
-	flutter run --debug --flavor development --dart-define=FLAVOR=development
+	fvm flutter run --debug --flavor development --dart-define=FLAVOR=development
 
 .PHONY: run-release-dev
 run-release-dev:
-	flutter run --release --flavor development --dart-define=FLAVOR=development
+	fvm flutter run --release --flavor development --dart-define=FLAVOR=development
 
 .PHONY: run-release-stg
 run-release-stg:
-	flutter run --release --flavor staging --dart-define=FLAVOR=staging
+	fvm flutter run --release --flavor staging --dart-define=FLAVOR=staging
 
 .PHONY: run-release-prd
 run-release-prd:
-	flutter run --release --flavor production --dart-define=FLAVOR=production
+	fvm flutter run --release --flavor production --dart-define=FLAVOR=production
