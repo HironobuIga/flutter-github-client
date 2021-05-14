@@ -1,0 +1,2 @@
+-printconfiguration ../../obfuscate/android/full-r8-config.txt
+-printusage ../../obfuscate/android/usage.txt
