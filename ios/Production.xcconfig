@@ -1,9 +1,5 @@
-//
-//  Production.xcconfig
-//  Runner
-//
-//  Created by Hironobu Iga on 2021/05/21.
-//
-
-// Configuration settings file format documentation can be found at:
-// https://help.apple.com/xcode/#/dev745c5c974
+FLUTTER_FLAVOR=Production
+PRODUCT_BUNDLE_IDENTIFIER=com.iganin.flutterGithubClient
+DISPLAY_NAME=GithubClient
+FLUTTER_TARGET=lib/main.dart
+ASSETCATALOG_COMPILER_APPICON_NAME=AppIcon-production
