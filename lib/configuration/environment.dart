@@ -1,6 +1,6 @@
 import 'flavor.dart';
 
 class AppEnvironment {
-  AppEnvironment({this.flavor});
+  AppEnvironment({required this.flavor});
   final Flavor flavor;
 }

@@ -4,16 +4,16 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ResponsiveDialogCancelButton extends StatelessWidget {
-  const ResponsiveDialogCancelButton({this.text, this.onPressed});
+  const ResponsiveDialogCancelButton({this.text, required this.onPressed});
 
-  final String text;
+  final String? text;
   final VoidCallback onPressed;
 
   @override
   Widget build(BuildContext context) {
     final iosDialogActionButton = CupertinoDialogAction(
         child: Text(
-          text,
+          text ?? 'キャンセル',
         ),
       onPressed: onPressed,
       isDefaultAction: true,
@@ -22,7 +22,7 @@ class ResponsiveDialogCancelButton extends StatelessWidget {
     final androidDialogActionButton = TextButton(
         onPressed: onPressed,
         child: Text(
-          text
+          text ?? 'キャンセル'
         )
     );
 

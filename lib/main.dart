@@ -10,6 +10,7 @@ void main() {
     Flavor.values,
     const String.fromEnvironment('FLAVOR'),
   );
-  final environment = AppEnvironment(flavor: flavor);
+  assert(flavor != null, 'invalid flavor value');
+  final environment = AppEnvironment(flavor: flavor!);
   runApp(App(environment: environment));
 }

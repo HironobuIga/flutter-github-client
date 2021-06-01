@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_github_client/configuration/environment.dart';
 
-import 'configuration/flavor.dart';
 import 'page/pages.dart';
 
 class App extends StatelessWidget {
-  App({this.environment});
+  App({required this.environment});
   final AppEnvironment environment;
 
   @override
