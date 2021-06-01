@@ -330,6 +330,7 @@
 /* Begin XCBuildConfiguration section */
 		1EDF18EA2652B7D1003C133D /* Debug-Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDB361826668EA200860498 /* Debug-Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -385,7 +386,7 @@
 		};
 		1EDF18EB2652B7D1003C133D /* Debug-Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F86E79005F51EE1CC4C70329 /* Pods-Runner.debug-development.xcconfig */;
+			baseConfigurationReference = 1EDB361826668EA200860498 /* Debug-Development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -408,6 +409,7 @@
 		};
 		1EDF18EC2652B7D7003C133D /* Release-Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDB361726668EA200860498 /* Release-Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -460,7 +462,7 @@
 		};
 		1EDF18ED2652B7D7003C133D /* Release-Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B53B378092AF540885933D2 /* Pods-Runner.release-development.xcconfig */;
+			baseConfigurationReference = 1EDB361726668EA200860498 /* Release-Development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -482,6 +484,7 @@
 		};
 		1EDF18EE2652B7E0003C133D /* Release-Staging */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDB361A26668EA300860498 /* Release-Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -534,7 +537,7 @@
 		};
 		1EDF18EF2652B7E0003C133D /* Release-Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 320A2D151387B3757265D3CD /* Pods-Runner.release-staging.xcconfig */;
+			baseConfigurationReference = 1EDB361A26668EA300860498 /* Release-Staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -556,6 +559,7 @@
 		};
 		1EDF18F02652B7E7003C133D /* Release-Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDB361126668EA200860498 /* Release-Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -608,7 +612,7 @@
 		};
 		1EDF18F12652B7E7003C133D /* Release-Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB1A0AB8B184BDF5F2CA64A6 /* Pods-Runner.release-production.xcconfig */;
+			baseConfigurationReference = 1EDB361126668EA200860498 /* Release-Production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -630,6 +634,7 @@
 		};
 		249021D3217E4FDB00AE95B9 /* Profile */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDB361C26668EA300860498 /* Profile.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -680,7 +685,7 @@
 		};
 		249021D4217E4FDB00AE95B9 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBD5BF9E1670C6AEB7D6145D /* Pods-Runner.profile.xcconfig */;
+			baseConfigurationReference = 1EDB361C26668EA300860498 /* Profile.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -702,6 +707,7 @@
 		};
 		97C147031CF9000F007C117D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDB361526668EA200860498 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -757,6 +763,7 @@
 		};
 		97C147041CF9000F007C117D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDB361426668EA200860498 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -809,7 +816,7 @@
 		};
 		97C147061CF9000F007C117D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62311DAC6EE3CB371B39939D /* Pods-Runner.debug.xcconfig */;
+			baseConfigurationReference = 1EDB361526668EA200860498 /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -832,7 +839,7 @@
 		};
 		97C147071CF9000F007C117D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A96044C8CE4D7CB2726D23A /* Pods-Runner.release.xcconfig */;
+			baseConfigurationReference = 1EDB361426668EA200860498 /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
