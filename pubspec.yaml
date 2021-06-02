@@ -15,31 +15,31 @@ dependencies:
     sdk: flutter
 
   # Architecture
-  flutter_riverpod:
-  flutter_state_notifier:
+  flutter_riverpod: ^0.12.4
+  flutter_state_notifier: ^0.7.0
 
   # Network
-  graphql_flutter:
-  data_connection_checker:
+  graphql_flutter: ^3.1.0
+  data_connection_checker: ^0.3.4
 
   # Web
-  webview_flutter:
+  webview_flutter: ^2.0.4
 
   # Model
   freezed_annotation:
 
   # key value local storage
-  flutter_secure_storage:
-  shared_preferences:
+  flutter_secure_storage: ^4.2.0
+  shared_preferences: ^0.5.12
 
   # l10n
-  intl:
+  intl: ^0.17.0
 
   # Util
-  device_info:
-  logger:
-  package_info:
-  enum_to_string:
+  device_info: ^2.0.0
+  logger: ^1.0.0
+  package_info: ^2.0.0
+  enum_to_string: ^2.0.1
 
   # UI
   cupertino_icons: ^1.0.2
@@ -47,30 +47,30 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  build_runner:
+  build_runner: ^1.10.2
 
   # Linter
-  pedantic_mono:
+  pedantic_mono: ^1.11.0
 
   # code generator
-  flutter_gen:
-  artemis:
+  flutter_gen: ^2.0.3
+  artemis: ^5.1.0
 
   # l10n
-  intl_translation:
+  intl_translation: ^0.17.0
 
   # Test
-  mockito:
+  mockito: ^4.1.4
 
   # Launcher Icons
-  flutter_launcher_icons:
+  flutter_launcher_icons: ^0.8.1
 
   # UI
-  flutter_native_splash:
+  flutter_native_splash: ^0.3.2
 
   # Model
-  freezed:
-  json_serializable:
+  freezed: ^0.12.2
+  json_serializable: ^3.5.1
 
 flutter_gen:
   output: lib/generated/
